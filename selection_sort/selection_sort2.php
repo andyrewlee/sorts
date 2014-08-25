@@ -35,9 +35,9 @@ for ($i=0; $i < 10000; $i++) {
 }
 
 echo "Time it takes to sort 10000\n";
-selection_sort2($array_with_10000);
+// selection_sort2($array_with_10000);
 
 echo "Given array of 50, 32, 2, 77, 25\n";
-var_dump(selection_sort2(array(50,32,2,77,25)));
+var_dump(selection_sort2(array(50,32,2, 77, 25)));
 
 ?>

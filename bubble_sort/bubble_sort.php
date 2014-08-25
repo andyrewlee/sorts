@@ -24,7 +24,7 @@ for ($i = 0; $i < 10000; $i++) {
   $array_of_10000[] = rand(0, 100);
 }
 
-echo "Time it takes to sort 10000\n";
+echo "Time it takes to sort 1000\n";
 bubble_sort($array_of_10000);
 
 $arr = array(50, 32, 2, 77, 25);
